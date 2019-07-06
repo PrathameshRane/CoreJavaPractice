@@ -17,11 +17,13 @@ public class HelloWorld {
 		
 		HelloWorld helloWorldObject= new HelloWorld();
 	
-		helloWorldObject.test();
-	
-		
-		System.out.println("HelloWorld!!!");
+			System.out.println("HelloWorld!!!");
 
+			helloWorldObject.nonStaticTest();  ///non static called on created object
+			
+			
+			HelloWorld.staticTest();    ///static method called on class directly
+			
 		
 	}
 
