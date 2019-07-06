@@ -2,13 +2,18 @@ package com.javatech;
 
 public class HelloWorld {
 	
-	void test(){
-		System.out.println("We are in no-static method");
+	void nonStaticTest(){
+		System.out.println("We are in non-static method");
+	}
+	
+	static void staticTest(){
+		
+		System.out.println("We are in static method");
 	}
 	
 	public static void main(String[] args){  
 		
-		System.out.println("We are in static method");
+		
 		
 		HelloWorld helloWorldObject= new HelloWorld();
 	
