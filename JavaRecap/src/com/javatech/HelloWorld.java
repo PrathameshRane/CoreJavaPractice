@@ -2,11 +2,11 @@ package com.javatech;
 
 public class HelloWorld {
 	
-	void nonStaticTest(){
+	public void nonStaticTest(){
 		System.out.println("We are in non-static method");
 	}
 	
-	static void staticTest(){
+	public static void staticTest(){
 		
 		System.out.println("We are in static method");
 	}
