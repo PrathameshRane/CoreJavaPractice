@@ -11,7 +11,7 @@ public class HelloWorld {
 		System.out.println("We are in static method");
 		
 		HelloWorld helloWorldObject= new HelloWorld();
-		String[] strArray1 = new String[] {"A","B","C"};
+	
 		helloWorldObject.test();
 	
 		
